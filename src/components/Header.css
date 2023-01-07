@@ -1,0 +1,36 @@
+#header-stack{
+    padding:8px;
+    position: sticky;
+    background-color:white;
+    width:100vw
+}
+#header-back-button{
+    text-decoration: "None";  
+    padding :0;
+}
+#header-save-button{
+    background-color: var(--primary-color);
+    border: none;
+    width: 150px;
+    box-shadow: 2px 2px 10px #bebebe;
+}
+@media (max-width:500px) {
+    #header-save-button{
+        width: auto;
+    }
+}
+#done-button{
+    background-color: var(--primary-color);
+    border: none;
+    width: 150px;
+    box-shadow: 2px 2px 10px #bebebe;
+    margin: 30px;
+}
+#done-button-div{
+    display:flex;
+    justify-content: right;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    height:80px
+}

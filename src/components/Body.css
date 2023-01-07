@@ -1,0 +1,27 @@
+#ov, #ot{
+    margin: auto
+}
+.nav-item{
+    width: 200px;
+    text-align: center
+}
+#packages-row{
+    background-color: var(--secondary-color);
+    border: 1px solid rgb(216, 216, 216);
+    margin-top: 20px;
+    border-bottom: None;
+}
+#civil-con{
+    border: 1px solid rgb(216, 216, 216);
+    border-top:None
+}
+#open-close-button{
+    background-color: None;
+    padding:0
+}
+@media (max-width:500px) {
+    .nav-item{
+        width: auto;
+        text-align: center
+    }
+}
